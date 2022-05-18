@@ -1,0 +1,128 @@
+.cart-container{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(33, 40, 40,0.5);
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cart-data{
+    width: 40%;
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+.top-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+.top-div i{
+  font-size: 25px;
+}
+.cart-div{
+    height: 85%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cart-div::-webkit-scrollbar {
+    display: none;
+  }
+.pop-cart{
+    height: 150px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.pop-cart .left-s{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-s-info{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 20px;
+}
+.left-s-info .prices{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: space-around;
+}
+.right-s{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10%;
+    justify-content: space-between;
+}
+.counting{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.last-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 13px;
+}
+.last-div-button{
+    background-color: rgb(71,192,157);
+    padding:  10px 40px;
+    border: none;
+    border-radius: 12px;
+    height: 50px;
+   
+}
+.popitems-price{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cartimgg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartimgg img{
+    width: 70%;
+    height:  400px;
+}
+
+.thanks{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.thanks img{
+    width: 100%;
+    height:  auto;
+    margin: auto;
+    margin-top:100px;
+}

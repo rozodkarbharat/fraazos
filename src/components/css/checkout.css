@@ -1,0 +1,254 @@
+.checkout-header {
+    background-color: #e5f8f1;
+    height: 100px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head-img {
+    width: 3%;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.head-img:hover {
+    background-color: #5dc6ad;
+}
+
+.main-checkout-div {
+    display: flex;
+    margin: 20px 40px 0 80px;
+    gap: 2%;
+}
+
+.sep {
+    background-color: lightgray;
+}
+
+.items-div, .address-div {
+    width: 60%;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px lightgrey;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.price-div {
+    width: 35%;
+    padding: 10px;
+}
+
+.coupon {
+    display: flex;
+    text-align: center;
+    border: 2px dashed #ffdac5;
+    font-weight: normal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.coupon>h4 {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.coupon>img {
+    margin: 10px 20px;
+    width: 5%;
+    height: 20px;
+}
+
+.bill-details {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.bill-details div{
+     display: flex;
+     flex-direction: space-around;
+        width: 100%;
+ }
+ .bill-details div p{
+     margin-right: 50px;
+ }
+
+.total_btn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5dc6ad;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.total_btn>p {
+    margin-top: 9px;
+    color: white;
+}
+
+.address {
+    margin-top: 30px;
+    display: flex;
+    gap: 2%;
+}
+
+.add_detail {
+    width: 50%;
+}
+
+.detail {
+    display: flex;
+    gap: 1%;
+}
+
+.detail>h5 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.detail>p {
+    margin-top: -0.5%;
+}
+
+.add_detail {
+    border: 2px solid #5dc6ad;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add_new {
+    width: 50%;
+    height: 150px;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add_new>h5 {
+    margin-top: 30px;
+    color: #5dc6ad;
+    font-size: 15px;
+}
+
+.del-div {
+    margin-top: 30px;
+    display: flex;
+    gap: 2%;
+}
+
+.express-del {
+    width: 30%;
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 178, 178);
+}
+
+.express-del>h5 {
+    margin-top: 20px;
+}
+
+.schedule {
+    width: 67%;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.schedule>p {
+    margin-top: 20px;
+    padding: 7px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.payments{
+    display: flex;
+    gap: 3%;
+}
+.pay-option{
+    padding: 10px;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #5dc6ad;
+}
+
+.pay-form {
+    width: 70%;
+    padding: 10px;
+}
+
+.cvv>div>label, .pay-form>label {
+    color: grey;
+    margin-top: 20px;
+}
+
+ .pay-form>input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    width: 75%;
+    font-size: 15px;
+}
+
+.cvv>div>input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    width: 105%;
+    font-size: 15px;
+}
+
+.cvv>div>input:focus, .pay-form>input:focus {
+    outline: none;
+}
+
+.pay-form>button{
+    margin-top: 20px;
+    width: 70%;
+    padding: 10px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #5dc6ad;
+}
+
+.cvv{
+    display: flex;
+    gap: 3%;
+}
+.btun{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5dc6ad;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.thanks{
+    height:1000px;
+    width:500px;
+
+}

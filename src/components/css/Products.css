@@ -1,0 +1,27 @@
+.product-deatils{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.accordion{
+    width: 15%;
+    margin-right: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.accordion p{
+    border-bottom: 1px solid rgb(238,238,238);
+    padding-bottom: 10px;
+    z-index: 0;
+}
+.accordion:hover{
+    cursor: pointer;
+}
+.productss{
+    padding-left: 15px;
+    width: 75%;
+    overflow: hidden;    
+}
