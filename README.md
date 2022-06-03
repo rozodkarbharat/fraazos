@@ -28,17 +28,17 @@
 
 <h3>Snippets</h3>
 <div>
-<img src="./images/img1"/>
+<img src="./images/img1.png"/>
 <div/>
   <div>
-<img src="./images/img2"/>
+<img src="./images/img2.png"/>
 <div/>
     <div>
-<img src="./images/img3"/>
+<img src="./images/img3.png"/>
 <div/>
       <div>
-<img src="./images/img4"/>
+<img src="./images/img4.png"/>
 <div/>
         <div>
-<img src="./images/img5"/>
+<img src="./images/img5.png"/>
 <div/>
