@@ -28,17 +28,17 @@
 
 <h3>Snippets</h3>
 <div>
-<img src="https://miro.medium.com/max/1400/1*gZ3GGWjp4LzTto45fTqj9Q.png"/>
+<img src="./images/img1"/>
 <div/>
   <div>
-<img src="https://miro.medium.com/max/1400/1*a0Q_3T37rkLHbwBniR3wtA.png"/>
+<img src="./images/img2"/>
 <div/>
     <div>
-<img src="https://miro.medium.com/max/1400/1*2R7zxlHomWCV3oEkU4Ce-g.png"/>
+<img src="./images/img3"/>
 <div/>
       <div>
-<img src="https://miro.medium.com/max/1400/1*Ep8DKIXF6eBOYKAiDNjqDQ.png"/>
+<img src="./images/img4"/>
 <div/>
         <div>
-<img src="https://miro.medium.com/max/1400/1*3k97qQaHbBZ8MbWznOwf3g.png"/>
+<img src="./images/img5"/>
 <div/>
