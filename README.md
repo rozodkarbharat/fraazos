@@ -1,5 +1,5 @@
 <h1>Fraazo Clone</h1>
-<a href="https://beautiful-rabanadas-160fc9.netlify.app/"><p>View Demo<p/></a>
+<a href="https://62e543d007f3241aa684a8fd--fraazos.netlify.app/"><p>View Demo<p/></a>
 <p>An Ecommerce Webapp for buying and selling vegetable & fruits</p>
 
 <h3>features:-</h3>
